@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="action.php">
+       <label for="Usename">
+        Username:<input type="text" placeholder="Enter Username" id="Username">
+       </label><br>
+       <label for="Email">
+        Email:<input type="email" placeholder="Enter your Email" id="Email">
+       </label><br>
+       <label for="password">
+        password:<input type="password" placeholder="Enter your password" id="password">
+       </label><br>
+       <label for="Cmpassword">
+        Confirm Password: <input type="password" placeholder="Renter password" id="Cmpassword">
+       </label><br>
+       <label for="dob">
+        Date of birth: <input type="date" placeholder="Enter your birth date" id="dob">
+       </label><br>
+       <fieldset>
+        <legend>gender</legend>
+        <label for="male">
+            Male <input type="radio" id="male" name="gender">
+        </label><br>
+        <label for="female">
+           FeMale <input type="radio" id="female" name="gender">
+        </label>
+       </fieldset><br>
+       <fieldset>
+        <legend>Select your strems</legend>
+        <label for="java">
+            Java<input type="checkbox" id="java">
+        </label><br>
+        <label for="python">
+            python<input type="checkbox" id="python">
+        </label><br>
+        <label for="C++">
+            C++<input type="checkbox" id="C++">
+        </label>
+       </fieldset><br>
+       <select name="city" id="city">
+        <option value="rajkot">rajkot</option>
+        <option value="junagadh">junagadh</option>
+        <option value="ahemdabad">ahemdabad</option>
+       </select><br><br>
+       <textarea name="address" id="address">Enter address</textarea><br>
+       <input type="submit" value="submit">
+    </form>
+</body>
+</html>

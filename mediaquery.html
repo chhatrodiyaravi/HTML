@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        .container {
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            background-color: orange;
+            
+        }
+        .box{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            border: 2px solid rgb(164, 43, 43);
+            margin: 2px;
+        }
+
+        .content1{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 2px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .content1 .box{
+            width: 90%;
+            height: 10%;
+            margin-top: 50px;
+            margin-left: 5px;
+
+        }
+        .content2{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            background-image: url(book.jpg);
+            background-size: cover;
+               margin: 2px;
+        }
+        @media (min-width:0px) and (max-width:500px){
+            .container {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(181, 109, 22);
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        </div>
+        <div class="content2">
+            <!-- <img src="book.jpg" alt="bookimg"> -->
+        </div>
+    </div>
+    
+</body>
+</html>

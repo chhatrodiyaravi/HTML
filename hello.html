@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-collapse:collapse ;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>bookmark</h2>
+        <ul>
+           <li><a href="#main">Main</a></li> 
+        </ul>
+        <h1>header</h1>
+        <p>this is sample para</p>
+        <h3>clickeble image</h3>
+        <a href="Basic/form.html" target="__main">
+            <img src="book.jpg" alt="random image"   height="100px">
+        </a>
+        <br>
+        <hr>
+
+        <b>this bold</b>
+        <u>underline</u>
+        <i>italic</i>
+        <hr>
+        <p>H<sub>2</sub>o</p>
+        <p>A<sup>2</sup></p>
+
+        <pre>
+        hello 
+        ravi 
+        bhai
+    </pre>
+        <p>Lorem, ipsum.</p>
+    </header>
+    <hr>
+
+    <main>
+        
+        <h1 id="main">main</h1>
+        <div class="main">
+            <h1>You are inside the main</h1>
+        </div>
+    </main>
+
+    <h2>order list</h2>
+    <ol>
+        <li>order list
+            <ul>
+                <li>ravi
+                    <ol>
+                        <li>ravi2</li>
+                    </ol>
+                </li>
+                <li>ravi</li>
+            </ul>
+        </li>
+        <li>order list</li>
+        <li>order list</li>
+    </ol>
+    <br>
+    <h2>order list</h2>
+    <ul>
+        <li>unorder list</li>
+        <li>order list</li>
+        <li>order list</li>
+    </ul>
+
+    <span style="background-color: antiquewhite;">this is span tag</span>
+    <p style="background-color: blanchedalmond;">normal tag</p>
+    <hr>
+    <h3>table tag</h3>
+    <table>
+        <caption>student data</caption>
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">city</th>
+            <td>xyz</td>
+        </tr>
+        <tr>
+            <th>firstname</th>
+            <th>lastanme</th>
+            <th>abc</th>
+        </tr>
+        <tr>
+            <td>ravi</td>
+            <td>ahir</td>   
+            <td>rajkot</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>form tag</h2>
+    <form action="">
+        <fieldset>
+            <legend>personal info</legend>
+            <label for="name"> Name:
+            <input type="text" placeholder="Enter your name" id="name">
+        </label><br><br>
+        <label for="pass">Password
+            <input type="password" placeholder="Enter password" id="pass">
+        </label><br><br>
+        <label for="cpass">confirm Password
+            <input type="password" placeholder="Enter confirm password" id="cpass">
+        </label><br><br>
+
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option value="rajkot">rajkot</option>
+            <option value="veraval">veraval</option>
+        </select>
+
+        <label for="genger">Gender</label><br><br>
+        
+            Male:<input type="radio" name="genger" id="Male">
+
+            Female: <input type="radio" name="genger" id="Female"><br><br>
+
+
+            <label for="laguage">language</label><br><br>
+            java: <input type="checkbox" name="java">
+            python: <input type="checkbox" name="python">
+
+            <br>
+            <br>
+
+            <textarea name="addres" id="addres"></textarea>
+            <br><br>
+            <input type="button" value="submit">
+        
+
+
+        </fieldset>
+    </form><hr>
+    <audio src="audio.mp3" controls></audio>
+
+    <footer>
+        <h1>footer</h1>
+        <div class="footer">
+            copyright &copy; 2025 Ravi chhatrodiya
+        </div>
+    </footer>
+</body>
+
+</html>

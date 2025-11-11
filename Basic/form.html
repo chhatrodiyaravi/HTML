@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form tag</title>
+    <style>
+        form {
+            border: 1px solid black;
+            width: 300px;
+            height: 500px;
+            padding: 10px 20px 20px 50px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="frname" placeholder="enter your First Name"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lrname" placeholder="enter your Last Name"><br>
+        <br>
+        <label for="unm">User Name</label>
+        <input type="text" id="unm" name="unm" placeholder="enter your User name"><br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" placeholder="enter the password">
+        <h5>select gender</h5>
+        <label for="id1">
+            <input type="radio" id="id1" name="class" value="male">male
+        </label>
+        <br>
+        <label for="id2">
+            <input type="radio" id="id2" name="class" value="female">female
+        </label><br>
+        <h5>select your  languages</h5>
+        <label for="c1">
+            <input type="checkbox" id="c1" name="l1" value="python">python
+        </label>
+        <br>
+        <label for="c2">
+            <input type="checkbox" id="c2" name="l2" value="java">python
+        </label>
+        <br>
+        <label for="c3">
+            <input type="checkbox" id="c3" name="l3" value="c++">c++
+        </label>
+        <br>
+        <select name="city" id="cityname">
+            <option value="veraval">veraval</option>
+            <option value="junagadh">junagadh</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="txt" id="t1">enter your feedback</textarea>
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="submit" value="cancel">
+
+    </form>
+</body>
+</html>

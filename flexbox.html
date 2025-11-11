@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .container {
+            height: 800px;
+            background-color: beige;
+            border: 5px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            place-content: space-between;
+
+            /* flex-wrap: wrap; */
+        }
+        /* .container:hover {
+            flex-direction: column;
+            align-content: center;
+        } */
+        .box {
+            height: 100px;
+            width: 100px;
+            /* padding: 1rem; */
+            /* margin-top: 1rem; */
+            /* margin: 2px; */
+            /* flex-grow: 1; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-transform: uppercase;
+            /* text-decoration: underline; */
+            font-weight: bolder;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic; 
+        }
+        .box1 {
+            background-color: rgb(51, 0, 255);
+            border: 2px solid black;
+        }
+
+        .box a:hover{
+            color: black;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 5px;
+            
+            
+        }
+        .box2 {
+            background-color: rgb(0, 255, 136);
+            border: 2px solid black;
+
+
+        }
+        .box3 {
+            background-color: rgb(255, 0, 98);
+            border: 2px solid black;
+
+        }
+        .box4 {
+            background-color: rgb(255, 42, 0);
+            border: 2px solid black;
+
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box box1"><a href="animation.html" target="__main"></a>
+        <!-- <audio src="audio.mp3" controls loop></audio> -->
+        </div>
+        <div class="box box2"><a href="#"></a></div>
+        <div class="box box4"><a href="#"></a></div>
+        <div class="box box3"><a href="#"></a></div>
+
+    </div>
+</body>
+</html>
